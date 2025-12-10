@@ -1,0 +1,17 @@
+name: KasynoPlugin
+version: 1.0.0
+main: pl.kasyno.KasynoPlugin
+api-version: '1.21'
+author: TwojNick
+description: Plugin kasynowy - podwoj lub strac przedmiot!
+
+commands:
+  kasyno:
+    description: Otwiera GUI kasyna
+    usage: /kasyno
+    permission: kasyno.use
+    
+permissions:
+  kasyno.use:
+    description: Pozwala uzywac komendy /kasyno
+    default: true
